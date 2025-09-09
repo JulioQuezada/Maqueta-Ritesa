@@ -1,0 +1,61 @@
+/* Agrega este CSS a tu archivo de estilos */
+.portfolio-details img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  }
+/* Estilos para los divs de información del producto y detalles de contacto */
+.portfolio-info,
+.portfolio-description,
+.email,
+.phone {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo con sombra negra */
+  color: white; /* Color de texto blanco para contrastar */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.portfolio-info h3,
+.portfolio-description h3,
+.email h4,
+.phone h4 {
+  margin-top: 0;
+}
+
+.email i,
+.phone i {
+  margin-right: 5px;
+}
+
+.fixed-button {
+  position: fixed;
+  top: 89%;
+  left: 50%; /* Centra el botón horizontalmente */
+  translate: translateX(-50%);
+  z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
+  align-items: center;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  margin-left: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-33:hover {
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
